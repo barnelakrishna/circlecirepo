@@ -7,7 +7,6 @@ jobs:
 
     steps:
       - checkout
-      # ... steps for building/testing app ...
       - setup_remote_docker:
           version: 20.10.5
 
